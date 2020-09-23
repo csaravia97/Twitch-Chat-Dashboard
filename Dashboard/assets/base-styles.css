@@ -1,0 +1,61 @@
+#big-app-container {
+    margin : 20px;
+}
+
+#graph-header {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#value-setter-menu {
+    margin : 10px 0px;
+}
+
+#streamer-select-title{
+    font-size: 18px;
+}
+
+#streamer-select-menu {
+    margin: 0px 0px 20px 0px;
+}
+
+#streamer-select-dropdown {
+    color: #000000;
+}
+
+.banner {
+    margin: 15px 0px;
+    border-bottom: 3px solid lightslategray;
+}
+
+.graph-cols {
+    margin: 10px 0px;
+}
+
+
+.nav-item a.active {
+    background-color: #b07efa !important;
+}
+
+.nav-item {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.content-jumbotron {
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.nav-link:hover { 
+    outline: 1px solid lightslategray;
+}
+
+.Select--multi .Select-value {
+    color: #a46df7;
+}
+
+.tab-card-header {
+    padding-top: 0px;
+}

@@ -1,0 +1,136 @@
+{   
+    "tab1":{
+        "question-mark": {
+            "layout": {
+                "title" : "Number of ??? messages",
+                "xaxis" : {
+                    "title": "Streamer Name",
+                    "automargin": true 
+                },
+
+                "yaxis" : {
+                    "gridcolor":"rgba(255, 255, 255, 0.3)"
+                },
+
+                "font" : {
+                    "color" : "#fff"
+                },
+                "paper_bgcolor": "#28282e",
+                "plot_bgcolor": "#28282e"
+            }
+        },
+        "streamer-mentions": {
+            "layout": {
+                "title" : "Number of @streamer messages",
+                "xaxis" : {
+                    "title": "Streamer Name",
+                    "automargin": true 
+                },
+
+                "yaxis" : {
+                    "gridcolor":"rgba(255, 255, 255, 0.3)"
+                },
+
+                "font" : {
+                    "color" : "#fff"
+                },
+                "paper_bgcolor": "#28282e",
+                "plot_bgcolor": "#28282e"
+            }
+        },
+        "emote-ratio": {
+            "layout": {
+                "title" : "Average word-emote ratio",
+                "xaxis" : {
+                    "title": "Streamer Name",
+                    "automargin": true 
+                },
+
+                "yaxis" : {
+                    "gridcolor":"rgba(255, 255, 255, 0.3)"
+                },
+
+                "font" : {
+                    "color" : "#fff"
+                },
+                "paper_bgcolor": "#28282e",
+                "plot_bgcolor": "#28282e"
+            }
+        }
+    },
+
+    "tab2" : {
+        "type": "bar",
+        "layout" : {
+            "title" : " Top Emotes",
+            "xaxis": {
+                "title" : "Emote Name",
+                "automargin": true
+            },
+            "yaxis": {
+                "title" : "Number of Uses",
+                "gridcolor": "rgba(255, 255, 255, 0.3)"
+            },
+            "font" : {
+                "color" : "#fff"
+            },
+            "paper_bgcolor": "#28282e",
+            "plot_bgcolor": "#28282e"
+        }
+    },
+
+    "tab3" : {
+        "type": "pie",
+        "layout" : {
+            "font" : {
+                "color" : "#fff"
+            },
+            "legend" : {
+                "orientation" : "h"
+            },
+            "margin": {"t":75, "b":0, "l":0, "r":0},
+            "paper_bgcolor": "#28282e",
+            "plot_bgcolor": "#28282e",
+            "title" : " Emote Usage Breakdown"
+        }
+    },
+
+    "tab4" : {
+        "type": "bar",
+        "layout" : {
+            "title" : " Top Participants",
+            "xaxis": {
+                "title" : "Username",
+                "automargin": true
+            },
+            "yaxis": {
+                "title" : "Total Messages",
+                "gridcolor": "rgba(255, 255, 255, 0.3)"
+            },
+            "font" : {
+                "color" : "#fff"
+            },
+            "paper_bgcolor": "#28282e",
+            "plot_bgcolor": "#28282e"
+        }
+    },
+    "tab5" : {
+        "type": "bar",
+        "layout" : {
+            "title" : " Top Commands",
+            "xaxis": {
+                "title" : "Command Name",
+                "automargin": true
+            },
+            "yaxis": {
+                "title" : "Number of Uses",
+                "gridcolor": "rgba(255, 255, 255, 0.3)"
+            },
+            "font" : {
+                "color" : "#fff"
+            },
+            "paper_bgcolor": "#28282e",
+            "plot_bgcolor": "#28282e"
+        }
+    }
+}
